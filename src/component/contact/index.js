@@ -61,7 +61,7 @@ export default function Contact(){
                         </div>
 
                         <div class="contact__card">
-                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <i class='bx bxl-telegram contact__card-icon'></i>
                             <h3 class="contact__card-title">Telegram</h3>
                             <span class="contact__card-data">@KhinHnin21</span>
 

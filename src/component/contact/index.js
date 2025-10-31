@@ -44,7 +44,7 @@ export default function Contact(){
                             <h3 class="contact__card-title">Email</h3>
                             <span class="contact__card-data">user@gmail.com</span>
 
-                            <a href="mailto:khinhninhtet447@gmail.com" target="_blank" class="contact__button">
+                            <a href="mailto:khinhninhtet447@gmail.com" target="_blank" rel="noopener noreferrer" class="contact__button">
                                 Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
                         </div>
@@ -54,7 +54,7 @@ export default function Contact(){
                             <h3 class="contact__card-title">Phone No.</h3>
                             <span class="contact__card-data">+959 775 784 683</span>
 
-                            <a href="+959775784683" target="_blank"
+                            <a href="+959775784683" target="_blank" rel="noopener noreferrer"
                                 class="contact__button">
                                 Call Me <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
@@ -65,7 +65,7 @@ export default function Contact(){
                             <h3 class="contact__card-title">Telegram</h3>
                             <span class="contact__card-data">@KhinHnin21</span>
 
-                            <a href="https://t.me/KhinHnin21" target="_blank" class="contact__button">
+                            <a href="https://t.me/KhinHnin21" target="_blank" rel="noopener noreferrer" class="contact__button">
                                 Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
                         </div>

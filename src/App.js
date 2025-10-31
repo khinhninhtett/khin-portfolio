@@ -20,7 +20,7 @@ function App() {
       delay: 400,
       reset: true,
     });
-
+const timer = setTimeout(() => {
      sr.reveal(`.nav__menu`, { scale: 0.1, origin: "bottom", distance: "200px", delay: 50 });
   sr.reveal(`.home__data`);
   sr.reveal(`.home__handle`, { delay: 50 });
@@ -32,6 +32,7 @@ function App() {
   sr.reveal(`.contact__info, .contact__title-info`, { origin: "left", scale: 0.9, distance: "20px", delay: 50 });
   sr.reveal(`.contact__form, .contact__title-form`, { origin: "right", scale: 0.9, distance: "20px", delay: 50 });
   sr.reveal(`.footer, .footer__container`, { origin: "bottom", scale: 0.9, distance: "20px", delay: 50 });
+  }, 300); 
   }, []);
 
   return (

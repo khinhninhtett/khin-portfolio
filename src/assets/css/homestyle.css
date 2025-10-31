@@ -18,7 +18,7 @@ body{
 :root {
   --body-font:'Raleway', sans-serif;
   --h2-font-size: 1.25rem;
-  --big-font-size: 3rem;
+  --big-font-size: 2.5rem;
   --normal-font-size: 0.93rem;
   --smaller-font-size: 0.75rem;
 }
@@ -26,7 +26,7 @@ body{
 @media screen and (min-width: 768px) {
   :root {
     --h2-font-size: 2rem;
-    --big-font-size: 5rem;
+    --big-font-size: 4rem;
     --normal-font-size: 1rem;
     --smaller-font-size: 0.813rem;
   }
@@ -88,7 +88,7 @@ img {
 
 .home__img {
   position: absolute;
-  top: 10%;
+  top: 16%;
   left: 22%;
   width: 235px;
   height: 353px;
@@ -151,12 +151,12 @@ img {
   }
   .home__title {
     top: 16%;
-    left: 23%;
+    left: 20%;
   }
   .home__img {
     width: 359px;
     height: 539px;
-    top: 18%;
+    top: 23%;
     left: 43%;
   }
   .home__social {

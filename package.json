@@ -16,6 +16,7 @@
     "mixitup": "^3.3.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "resend": "^6.12.4",
     "tailwind": "^4.0.0",
     "tailwindcss": "^4.3.0"
   },

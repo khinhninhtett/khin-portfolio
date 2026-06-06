@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+/* --- COMPREHENSIVE PERFORMANCE & INTERACTIVE OVERRIDES --- */
+html {
+  scroll-behavior: smooth;
+  background-color: #0F172A;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0F172A;
+}
+
+#root {
+  perspective: none;
+}
+
+/* Custom premium smooth scrollbar profile matching high-end dark glass themes */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  border: 2px solid #0F172A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.4);
+}
+
+/* Custom continuous rotation matrix animation used for background elements */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Ensure micro-icons preserve structural alignment thresholds */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}

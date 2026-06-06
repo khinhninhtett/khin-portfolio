@@ -1,0 +1,11 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow build or temporary files (if any)
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://khinhninhtet.site/sitemap.xml
